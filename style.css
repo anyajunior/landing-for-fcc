@@ -1,6 +1,18 @@
+/* COLORS:
+#D1913E - red / accents / sections
+#CCC7AF - cinnamon
+#202230 - dark blue
+#F4E8D7 - cream / text
+#C65129 - .any color.
+*/
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 10 em;
+}
+
+#nav-bar {
+    background: #202230;
 }
 
 ul {
@@ -13,8 +25,12 @@ ul {
     margin-left: auto;
     margin-right: auto;
     margin: auto;
-    background: yellow;
 }
+
+.nav-link > a {
+    color: #F4E8D7;
+}
+
 a {
     text-decoration: none;
 }
