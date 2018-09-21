@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 10 em;
+    font-size: 1em;
     margin: 0;
     padding: 0;
 }
@@ -40,16 +40,63 @@ a {
     text-decoration: none;
 }
 
+
+
+h1, p {
+    padding: 1em;
+    margin: 0;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #kennel {
+        background: #CCC7AF;
+        min-height: 100vh;
+        padding-top: 0;
+        align-items: center;
+    }
+    
+    #kennel > img {
+        width: 100vw;
+        border-radius: 10px;
+        padding: 1em;
+    }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    #kennel {
+        background: #CCC7AF;
+        min-height: 100vh;
+        padding-top: 0;
+        align-items: center;
+        display: flex;
+    }
+    
+    #kennel > img {
+        width: 40%;
+        height: 40%;
+        border-radius: 10px;
+        padding: 1em;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+
 #kennel {
     background: #CCC7AF;
     min-height: 100vh;
     padding-top: 0;
-    padding-bottom: 0;
     display: flex;
+    align-items: center;
 }
 
-#kennel > p {
-    padding-top: 0;
-    margin-top: 0;
+#kennel > img {
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+    padding: 1em;
 }
-
+}
