@@ -72,9 +72,14 @@ a.icon {
 /* end of hamburger menu */
 
 .kennels > h1, p {
-    padding: 1em;
+    padding: 1rem;
     margin: 0;
 }
+
+.kennels > h1 {
+    font-size: 3em;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #kennel {
@@ -130,6 +135,27 @@ a.icon {
 }
 }
 
+.quote  {
+    background: #C65129;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F4E8D7;
+}
+
+.fa-quote-right {
+    font-size: 3em;
+}
+
+.quote > p {
+    font-size: 1.5em;
+}
+
 #dogs-container {
+    width: 100vw;
+	max-width: 100ch;
+	margin: 0 auto;
+	padding: 1.5em 1em;
     display: flex;
 }
