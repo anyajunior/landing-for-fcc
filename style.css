@@ -159,3 +159,31 @@ a.icon {
 	padding: 1.5em 1em;
     display: flex;
 }
+
+.doggo {
+    padding: 5em 1em 5em 1em;
+}
+
+.doggo > img {
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    margin-left: 3em;
+}
+
+#breed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #202230;
+    padding-bottom: 5em;
+    padding-top: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #202230;
+    color: #F4E8D7;
+}
