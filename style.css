@@ -203,7 +203,7 @@ aside {
     justify-content: center;
 }
 
-input {
+#email {
     height: 50px;
     width: 600px;
     margin: auto;
