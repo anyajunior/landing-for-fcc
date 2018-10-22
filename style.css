@@ -17,6 +17,8 @@ body {
     background: #D1913E;
     padding: 0;
     margin: 0;
+    position: fixed;
+    width: 100vw;
 }
 
 ul {
@@ -26,7 +28,7 @@ ul {
     margin: 0;
 }
 
-.nav-link {
+li {
     margin-left: auto;
     margin-right: auto;
     margin: auto;
