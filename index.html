@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar" class="topnav">
+            <ul role="navigation">
+                <li><img src="img/logo.png" id="header-img" alt="chow-chow"></li>
+                <li><form><input placeholder="search"/></form></li>
+                <li><a class="nav-link" href="#dogs">Dogs</a></li>
+                <li><a class="nav-link" href="#breed">Breed</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fas fa-bars"></i></a>
+            </ul>
+        </nav>
+    </header>
+    <section id="kennel">
+        <img src="http://source.unsplash.com/6qgJr6flBl8/">
+        <div class="kennels">
+            <h1>Chow-Channel Kennel</h1>
+            <p>At our kennel we specialize in breeding and raising show and companion dogs. Our Chow Chows have recieved top awards worldwide. We test the health and wellness of our stock before we would even consider breeding them.
+            </p>
+        </div>
+    </section>
+    <section class="quote">
+        
+            <p><i class="fas fa-quote-right"></i>
+                &nbsp; &nbsp; &nbsp; Chow Chows originated in China and were used to hunt everything from pheasant to wolves.</p>
+        
+    </section>
+    <section id="dogs">
+        <div id="dogs-container">
+            <div class="doggo">
+                <img src="img/borges.jpg">
+                <p>This is a philosopher. He's fond of sleeping and wondering about this life. He is Borges.</p>
+            </div>
+            <div class="doggo">
+                <img src="img/billy.png">
+                <p>This is a very playful doggo, active and friendly. He is a boy. His name is Billy Bones.</p>
+            </div>
+            
+            <div class="doggo">
+                <img src="img/bruno.png">
+                <p>This is a hedonist. Likes to eat, and likes himself. Strong muscles, fat ass. This is Bruno Wise.</p>
+            </div>
+        </div>
+    </section>
+    <section id="breed">
+        <video width="640" height="480" controls id="video">
+            <source src="img/Chow chow puppies first time see each other.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <aside id="contact">
+        <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+            <div id="emailForm">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" value="Enter your e-mail" required placeholder="Your e-mail">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+    </aside>
+    <footer id="footer">
+        <p>This site is made for the freeCodeCamp Responsive Web Design Certification</p>
+    </footer>
+<script src="script.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
