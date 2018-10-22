@@ -17,7 +17,7 @@ body {
     background: #D1913E;
     padding: 0;
     margin: 0;
-    position: fixed;
+        position: fixed;
     width: 100vw;
 }
 
@@ -131,7 +131,7 @@ a.icon {
 
 #kennel {
     background: #CCC7AF;
-    min-height: 100vh;
+    min-height: 90vh;
     padding-top: 0;
     display: flex;
     align-items: center;
@@ -197,3 +197,19 @@ footer {
     background: #202230;
     color: #F4E8D7;
 }
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+
+#email {
+    height: 50px;
+    width: 600px;
+    margin: auto;
+}
+
+#emailForm {
+    height: 100px;
+}
+
